@@ -1,0 +1,93 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a(generic code)...
+
+1. Start
+2. Read the first number (num1)
+3. Read the second number (num2)
+4. Set the sum (result) to 0
+5. Add num1 and num2, and store the result in the variable result
+6. Display the value of result
+7. Stop
+
+b(plugging in num1 = 5, num2 = 3)...
+
+1. Start
+2. Read the first number (num1)  -> Let's say num1 = 5
+3. Read the second number (num2) -> Let's say num2 = 3
+4. Set the sum (result) to 0
+5. Add num1 and num2, and store the result in the variable result -> result = num1 + num2 = 5 + 3 = 8
+6. Display the value of result -> Display 8
+7. Stop
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. Start
+2. Read the number (num)
+3. If num modulo 2 equals 0, then
+     - Display "The number is even"
+   Else
+     - Display "The number is odd"
+4. Stop
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+a(generic code)...
+
+1. Start
+2. Read the first number (num1)
+3. Read the second number (num2)
+4. Read the third number (num3)
+5. Read the fourth number (num4)
+6. Read the fifth number (num5)
+7. Set the sum (total) to 0
+8. Add num1, num2, num3, num4, and num5, and store the result in the variable total
+9. Set the average to total divided by 5
+10. Set the minimum to num1
+11. Set the maximum to num1
+12. If num2 is less than minimum, then set minimum to num2
+13. If num2 is greater than maximum, then set maximum to num2
+14. If num3 is less than minimum, then set minimum to num3
+15. If num3 is greater than maximum, then set maximum to num3
+16. If num4 is less than minimum, then set minimum to num4
+17. If num4 is greater than maximum, then set maximum to num4
+18. If num5 is less than minimum, then set minimum to num5
+19. If num5 is greater than maximum, then set maximum to num5
+20. Display "The average is: " concatenated with the value of average
+21. Display "The minimum number is: " concatenated with the value of minimum
+22. Display "The maximum number is: " concatenated with the value of maximum
+23. Stop
+
+b(plugging in num1 = 10, num2 = 5, num3 = 8, num4 = 12, num5 = 3)...
+
+1. Start
+2. Read the first number (num1) -> Let's say num1 = 10
+3. Read the second number (num2) -> Let's say num2 = 5
+4. Read the third number (num3) -> Let's say num3 = 8
+5. Read the fourth number (num4) -> Let's say num4 = 12
+6. Read the fifth number (num5) -> Let's say num5 = 3
+7. Set the sum (total) to 0
+8. Add num1, num2, num3, num4, and num5, and store the result in the variable total -> total = num1 + num2 + num3 + num4 + num5 = 10 + 5 + 8 + 12 + 3 = 38
+9. Set the average to total divided by 5 -> average = total / 5 = 38 / 5 = 7.6
+10. Set the minimum to num1 -> minimum = num1 = 10
+11. Set the maximum to num1 -> maximum = num1 = 10
+12. If num2 is less than minimum, then set minimum to num2
+13. If num2 is greater than maximum, then set maximum to num2
+14. If num3 is less than minimum, then set minimum to num3
+15. If num3 is greater than maximum, then set maximum to num3
+16. If num4 is less than minimum, then set minimum to num4
+17. If num4 is greater than maximum, then set maximum to num4
+18. If num5 is less than minimum, then set minimum to num5
+19. If num5 is greater than maximum, then set maximum to num5
+20. Display "The average is: " concatenated with the value of average -> Display "The average is: 7.6"
+21. Display "The minimum number is: " concatenated with the value of minimum -> Display "The minimum number is: 3"
+22. Display "The maximum number is: " concatenated with the value of maximum -> Display "The maximum number is: 12"
+23. Stop
+
+-- END --
